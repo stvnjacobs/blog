@@ -1,0 +1,26 @@
+---
+layout: default
+title: stevenja.co/bs/
+---
+
+<div id="home">
+  <section class="feature">
+    <h2>Recent</h2>
+
+    {% for post in site.categories.feature | last %}
+      <img src="{{ site.url }}/images/{{ post.image }}"</img>
+      <p>
+      	<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      </p>
+    {% endfor %}
+   </section>
+
+  <section class="photo">
+    <h2>Photo</h2>
+  	<ul class="posts thumbs">
+  	{% for post in site.categories.photo %}
+  	  <li><a href="{{ post.url }}"><img src="{{ site.url }}/images/{{ post.image }}"></a></li>
+  	{% endfor %}
+  	</ul>
+  </section>
+</div>
