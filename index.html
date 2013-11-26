@@ -10,7 +10,7 @@ title: stevenja.co/bs/
 
      			{% for post in site.categories.feature | last %}
      			<div>
-       			<img src="{{ site.url }}/bs/images/{{ post.image }}">
+       			<img src="{{ site.url }}/images/{{ post.image }}">
   	   			<p>
 	     				<span>{{ post.date | date_to_string }}</span> &raquo; <a href="/bs{{ post.url }}">{{ post.title }}</a>
 	    			</p>
@@ -27,7 +27,7 @@ title: stevenja.co/bs/
           <div class="row">
      			{% for post in site.categories.photo %}
      			  <a href="/bs{{ post.url }}">
-            <img src="{{ site.url }}/bs/images/small/{{ post.image }}">
+            <img src="{{ site.url }}/images/small/{{ post.image }}">
             </a>
           {% endfor %}
           </div>
