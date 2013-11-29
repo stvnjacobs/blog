@@ -30,7 +30,7 @@ tags:
 
 ![loveyou][12]
 
-Thank you all so much to those pictured as well as Margaret for the end of day donuts, Dylan for making the trip north, Chip who knew a cookout wasn't worth his time without fried chicken, Scott who had food in his mouth in every picture (which is understandable), Nick Myket for sticking around for the festivities, [Mike Perry](/images/20130915-terry.gif), Colette because seeing you is always a pleasure, Nick Hoffman for droppin in, John for bringing the tools we didn't know we needed, Squeegee for being Squeegee yet avoiding nearly every picture, to all those that fell at the beer pong table, and all those that couldn't come but sent their best wishes.
+Thank you all so much to those pictured as well as Margaret for the end of day donuts, Dylan for making the trip north, Chip who knew a cookout wasn't worth his time without fried chicken, Scott who had food in his mouth in every picture (which is understandable), Nick Myket for sticking around for the festivities, [Mike Perry](http://stevenja.co/bs/images/20130915-terry.gif), Colette because seeing you is always a pleasure, Nick Hoffman for droppin in, John for bringing the tools we didn't know we needed, Squeegee for being Squeegee yet avoiding nearly every picture, to all those that fell at the beer pong table, and all those that couldn't come but sent their best wishes.
 
 
 [1]: http://stevenja.co/bs/images/20130915-melon.jpg "no seeds"

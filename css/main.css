@@ -203,14 +203,14 @@ a:visited { color: #a0a; }
   padding-left: 0.7em;
 } }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
 .container {
   width: 100%;
 }
 
 .post img {
-  width: 100%;
+  max-width: 100%;
 }
 
 }
