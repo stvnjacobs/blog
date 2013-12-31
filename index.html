@@ -23,12 +23,9 @@ title: stevenja.co/bs/
         <h2>Links</h2>
 
           {% for post in site.categories.link %}
-          <div>
+          <div class="item">
             <a href="{{ site.url }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
-            <p>
-              <span>{{ post.date | date_to_string }}</span> &raquo; <a class = "destination" href="{{ post.destination }}">{{ post.title }}</a>
-              <span class="description">{{ post.content }}</span>
-            </p>
+            <p><span class="meta">{{ post.date | date_to_string }}</span> &raquo; <a class = "destination" href="{{ post.destination }}">Direct Link</a></p>
           </div>
           {% endfor %}
 
