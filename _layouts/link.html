@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<div class="link">
+  <p><a class="destination" href="{{ page.destination }}">Link</a></p>
+  
+  <div class="post">
+  {{ content }}
+  </div>
+
+  <p class="meta">{{ page.date | date_to_string }}</p>
+
+
+</div>

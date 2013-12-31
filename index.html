@@ -18,6 +18,22 @@ title: stevenja.co/bs/
   			  {% endfor %}
 
      	</section>
+
+      <section class="links">
+        <h2>Links</h2>
+
+          {% for post in site.categories.link %}
+          <div>
+            <a href="{{ site.url }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
+            <p>
+              <span>{{ post.date | date_to_string }}</span> &raquo; <a class = "destination" href="{{ post.destination }}">{{ post.title }}</a>
+              <span class="description">{{ post.content }}</span>
+            </p>
+          </div>
+          {% endfor %}
+
+      </section>
+
 		</div>
 
 		<div class="pad-3of3 small-12 large-6 column">	       

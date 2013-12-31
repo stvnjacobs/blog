@@ -164,6 +164,10 @@ a:visited { color: #a0a; }
   margin-top: 0.5em;
 }
 
+.links p {
+  margin: 0;
+}
+
 .photo img {
   height: 8em;
   display: inline;
