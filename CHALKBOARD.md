@@ -9,3 +9,6 @@ then an if statement that appears if an edit is present. to output
 ```
 Last Edit was 42 days ago
 ```
+==================================================================
+reading time
+http://andytaylor.me/2013/04/07/reading-time/
