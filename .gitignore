@@ -1,10 +1,10 @@
 # jekyll #
-_site
-_drafts
+_site/
+_drafts/
 
 # dev #
-node_modules
+node_modules/
 
 # image assets #
-images-raw
-images
+images-raw/
+images/
