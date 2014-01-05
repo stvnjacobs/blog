@@ -1,0 +1,17 @@
+---
+layout: default
+title: setup - stevenja.co/bs/
+---
+<h2>my current setup</h2>
+
+<p>This website is an ongoing project and a learning experience most of all.  The goal of this page is to keep up to date documentation on the various pieces that go into operating the site.</p>
+
+<h3>development</h3>
+
+<dl>
+{% for dependency in site.data.dependencies in site.data.dependencies %}
+  <dt><a href="{{ dependency.link }}" target="_blank">{{ dependency.name}}</a></dt>
+  <dd>{{ dependency.description }}</dd>
+  <dd>{{ dependency.resources }}</dd>
+{% endfor %}
+</dl>
