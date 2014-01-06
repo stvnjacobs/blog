@@ -22,7 +22,7 @@ then with an edits section in the front-matter, add edit blurb on a page
 ```
 
 stil remaining:
-[ ] - change time to days ago
+- change time to days ago
 
 ```
 Last Edit was 42 days ago
