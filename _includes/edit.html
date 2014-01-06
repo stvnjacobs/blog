@@ -1,0 +1,4 @@
+{% for edit in page.edits %}
+<p class="">Edit: <span class="meta">{{ edit.date | date_to_string }}</span></p>
+<p class="italic">{{ edit.changes }}</p>
+{% endfor %}
