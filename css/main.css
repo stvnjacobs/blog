@@ -37,6 +37,10 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+.italic {
+  font-style: italic;
+}
+
 /*****************************************************************************/
 /*
 /* Home
