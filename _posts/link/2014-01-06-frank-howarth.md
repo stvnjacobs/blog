@@ -6,11 +6,11 @@ destination: http://www.youtube.com/user/urbanTrash
 ---
 
 
-Building his shop &raquo; ([Direct Link][shop]) <span class="meta">16 minutes</span>
+Building his shop &raquo; ([Youtube][shop]) <span class="meta">16 minutes</span>
 
-Making a bowl &raquo; ([Direct Link][bowl]) <span class="meta">8 minutes</span>
+Making a bowl &raquo; ([Youtube][bowl]) <span class="meta">8 minutes</span>
 
-Mallet Short &raquo; ([Direct Link][mallet]) <span class="meta">2 minutes</span>
+Mallet Short &raquo; ([Youtube][mallet]) <span class="meta">2 minutes</span>
 
 Frank's Website &raquo; ([Direct Link][frank])
 
