@@ -1,6 +1,5 @@
 # jekyll #
 _site/
-_drafts/
 
 # dev #
 node_modules/
