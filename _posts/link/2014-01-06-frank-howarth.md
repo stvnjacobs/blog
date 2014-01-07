@@ -12,7 +12,7 @@ Making a bowl &raquo; ([Direct Link][bowl]) <span class="meta">8 minutes</span>
 
 Mallet Short &raquo; ([Direct Link][mallet]) <span class="meta">2 minutes</span>
 
-Frank's Website &raquo; ([Direct Link][frank]) <span class="meta">2 minutes</span>
+Frank's Website &raquo; ([Direct Link][frank])
 
 [shop]: http://www.youtube.com/watch?v=ge96Qvp-EzE
 [bowl]: http://www.youtube.com/watch?v=qFFS9PsghCI
