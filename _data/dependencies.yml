@@ -22,6 +22,12 @@
   tags:
   resources:
 
+- name: rsync
+  link: http://rsync.samba.org/
+  description: "moves the changed and newly created files for the site from my computer to the server."
+  tags:
+  resources:
+
 - name: node.js
   link: http://nodejs.org
   description: "dependency for development applications like Grunt."
@@ -32,4 +38,10 @@
   link: http://gruntjs.com
   description: "does the work to automate most the repetitive things."
   tags:
+  resources: 
+
+- name: Bower
+  link: http://bower.io
+  description: "keeps any third party libraries I use seperate and kept up to date."
+  tags: 
   resources: 
