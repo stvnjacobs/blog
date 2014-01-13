@@ -9,7 +9,7 @@ This page is a documentation of the various pieces that go into creating and mai
 ### development dependencies
 
 <dl>
-{% for dependency in site.data.dependencies in site.data.dependencies %}
+{% for dependency in site.data.dependencies %}
   <dt><a href="{{ dependency.link }}" target="_blank">{{ dependency.name}}</a></dt>
   <dd>{{ dependency.description }}</dd>
 {% endfor %}
@@ -21,5 +21,3 @@ A majority of the content on the site is formatted in a Markdown.  This page is 
 
 [md-raw]: https://raw.github.com/stvnjacobs/blog/master/setup.md      "uncompiled .md source of this page.  neat!"
 [md-github]: https://github.com/stvnjacobs/blog/blob/master/setup.md  "styled using github flavored markdown.  neat!"
-
-Jekyll converts Markdown files.
