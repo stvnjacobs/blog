@@ -735,7 +735,7 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 768px) {
   .column.large-centered,
   .columns.large-centered {
     position: relative;
