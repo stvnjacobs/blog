@@ -177,6 +177,12 @@ a:visited { color: #a0a; }
   margin: 0;
 }
 
+.biglink {
+  margin-bottom: 0;
+  font-size: 100%;
+  font-weight: bold;
+}
+
 .item {
   margin: 0px 0px 1em 0px;
 }
