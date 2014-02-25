@@ -12,7 +12,7 @@ title: stevenja.co/bs/
      			<div>
        			<img src="{{ site.url }}/images/large/{{ post.image }}">
   	   			<p>
-	     				<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+	     				<span>{{ post.date | date_to_string }}</span> &raquo; <a class="title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 	    			</p>
      			</div>
   			  {% endfor %}
