@@ -231,22 +231,28 @@ a:visited { color: #a0a; }
 
 @media only screen and (min-width: 768px) {
 
-.pad-right {
-  padding-right: 0.7em;
-}
+  .pad-right {
+    padding-right: 0.7em;
+  }
 
-.pad-left {
-  padding-left: 0.7em;
-} }
+  .pad-left {
+    padding-left: 0.7em;
+  } 
+
+}
 
 @media only screen and (max-width: 768px) {
 
-.container {
-  width: 100%;
-}
+  .container {
+    width: 100%;
+  }
 
-.post img {
-  max-width: 100%;
-}
+  .header a.first {
+    margin-left: 0px;
+  }
+
+  .post img {
+    max-width: 100%;
+  }
 
 }
