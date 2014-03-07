@@ -8,12 +8,12 @@ This page is a documentation of the various pieces that go into creating and mai
 
 ### development dependencies
 
-<dl>
 {% for dependency in site.data.dependencies %}
-  <dt><a href="{{ dependency.link }}" target="_blank">{{ dependency.name}}</a></dt>
-  <dd>{{ dependency.description }}</dd>
+
+  <a class="italic" href="{{ dependency.link }}" target="_blank">{{ dependency.name }}</a>
+  {{ dependency.description }}
+
 {% endfor %}
-</dl>
 
 ### process
 
