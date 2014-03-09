@@ -69,6 +69,8 @@ a:visited { color: #a0a; }
   line-height: 1.75em;
 }
 
+ p { max-width: 768px; }
+
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
