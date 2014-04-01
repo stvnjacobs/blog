@@ -49,7 +49,7 @@ p {
 
 a         { color: #00a; text-decoration: none;}
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #a00; }
 
 .italic {
   font-style: italic;
