@@ -188,7 +188,7 @@ a:visited { color: #a00; }
   font-style: italic;
 }
 
-.feature p {
+.feature .row {
   text-align: right;
   line-height: 1.4em;
   margin-top: 0.5em;
