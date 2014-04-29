@@ -126,6 +126,9 @@ a:visited { color: #a00; }
   color: #aaa;
 }
 
+.pull-right {
+  text-align: right;
+}
 /*****************************************************************************/
 /*
 /* Posts
@@ -189,7 +192,6 @@ a:visited { color: #a00; }
 }
 
 .feature .row {
-  text-align: right;
   line-height: 1.4em;
   margin-top: 0.5em;
 }
