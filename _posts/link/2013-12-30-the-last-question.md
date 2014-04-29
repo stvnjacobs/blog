@@ -10,5 +10,5 @@ Full Text &raquo; ([Direct Link][text]) <span class="meta">26 minute read</span>
 
 Reading of the story hosted on YouTube &raquo; ([Direct Link][audio])
 
-[text]: http://filer.case.edu/dts8/thelastq.htm
+[text]: http://www.multivax.com/last_question.html
 [audio]: http://youtube.com/watch?v=ojEq-tTjcc0
