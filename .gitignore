@@ -3,6 +3,7 @@ _site/
 
 # dev #
 node_modules/
+.sass-cache
 
 # image assets #
 scanner/
