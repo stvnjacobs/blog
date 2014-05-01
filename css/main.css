@@ -101,6 +101,32 @@ a:visited { color: #a00; }
   text-decoration: none;
 }
 
+.footer {
+  border-top: 1px solid #000;
+  margin-top: 2em;
+  padding-top: 1em;
+}
+
+.footer ul {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: text-bottom;
+}
+
+.footer li {
+    display:inline;
+    float:left;
+}
+
+.footer li :last-child {
+    margin-left: 2em;
+}
+
+.footer a{
+    display: block;
+    text-align: center;
+}
+
 .url-main {
   display: inline-block;
 }
@@ -124,6 +150,17 @@ a:visited { color: #a00; }
 
 .meta {
   color: #aaa;
+  font: sans-serif;
+}
+
+.border-top {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-top: 1px solid #EEE;
+  margin-top: 18px;
 }
 
 .pull-right {
@@ -218,6 +255,15 @@ a:visited { color: #a00; }
 .photo a {
   border: 0 none;
   text-decoration: none;
+}
+
+/******************************************************************************/
+/*
+/* Tidbits
+/*
+/******************************************************************************/
+
+.signature {
 }
 
 /******************************************************************************/
