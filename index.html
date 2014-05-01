@@ -28,8 +28,9 @@ title: stevenja.co/bs/
             <p><span class="meta">{{ post.date | date_to_string }}</span> &raquo; <a class = "destination" href="{{ post.destination }}">Direct Link</a></p>
           </div>
           {% endfor %}
-          <p class="meta pull-right"><a href="{{ site.url }}/links.html">More links...</a></p>
-
+          <div class="row border-top">
+            <p><a href="{{ site.url }}/links.html">More links...</a></p>
+          </div>
       </section>
 
 		</div>
@@ -50,3 +51,5 @@ title: stevenja.co/bs/
 		</div>
   </div>
 </div>
+
+{% include footer.html %}

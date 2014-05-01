@@ -2,18 +2,23 @@
 layout: default
 title: links
 ---
-<h2>Links</h2>
 
-<p>Things I have clicked on and found worth sharing.</p>
+<div class="row">
+	<h2>Links</h2>
 
-{% for post in site.categories.link %}
-    <div class="item">
-        <p>
-            <span class="meta">{{ post.date | date_to_string }}</span> &raquo; 
-            <a href="{{ site.url }}{{ post.url }}"><span class="biglink">{{ post.title }}</span></a>
-        </p>
-        <div class="large-push-1">
-        	<p>{{ post.content }}</p>
-    	</div>
-    </div>
-{% endfor %}
+	<p>Things I have clicked on and found worth sharing.</p>
+
+	{% for post in site.categories.link %}
+	    <div class="item">
+	        <p>
+	            <span class="meta">{{ post.date | date_to_string }}</span> &raquo; 
+	            <a href="{{ site.url }}{{ post.url }}"><span class="biglink">{{ post.title }}</span></a>
+	        </p>
+	        <div class="large-push-1">
+	        	<p>{{ post.content }}</p>
+	    	</div>
+	    </div>
+	{% endfor %}
+</div>
+
+{% include footer.html %}
