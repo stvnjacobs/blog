@@ -84,9 +84,9 @@ a:visited { color: $red; }
 }
 
 .footer {
-  border-top: 1px solid $black;
-  margin-top: 2em;
+  border-top: 2px solid $black;
   padding-top: 1em;
+  margin-bottom: 2em;
 }
 
 .footer ul {
@@ -98,10 +98,6 @@ a:visited { color: $red; }
 .footer li {
     display:inline;
     float:left;
-}
-
-.footer li:first-child {
-    margin-right: 1em;
 }
 
 .footer li:nth-child(n+2) {
@@ -250,6 +246,13 @@ a:visited { color: $red; }
 /******************************************************************************/
 
 .signature {
+}
+
+.horizontal-line {
+  height: 0px;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  border-top: 1px solid $black;
 }
 
 /******************************************************************************/
