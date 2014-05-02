@@ -106,11 +106,16 @@ a:visited {
   float: left;
 }
 
-.footer li :last-child {
-  margin-left: 2em;
+.footer li:first-child {
+  margin-right: 1em;
+}
+
+.footer li:nth-child(n+2) {
+  margin-left: 1em;
 }
 
 .footer a {
+  color: black;
   display: block;
   text-align: center;
 }
@@ -150,7 +155,7 @@ a:visited {
   margin-top: 18px;
 }
 
-.pull-right {
+.text-right {
   text-align: right;
 }
 
