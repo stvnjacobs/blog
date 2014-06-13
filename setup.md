@@ -2,11 +2,9 @@
 layout: default
 title: setup
 ---
-## my current setup
+## Current Setup
 
 This page is a documentation of the various pieces that go into creating and maintaining this site.
-
-### dependencies 
 
 {% for dependency in site.data.dependencies %}
 
