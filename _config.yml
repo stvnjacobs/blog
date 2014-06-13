@@ -1,5 +1,5 @@
 url: http://localhost:4000
 name: stevenja.co/bs/
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: pigments
 exclude: [node_modules, Gruntfile.js, tmp]
