@@ -12,8 +12,6 @@ tags:
 
 ![sam and bethany][3]
 
-![starein][4]
-
 ![dave and jill][5]
 
 ![syed][6]
@@ -36,7 +34,6 @@ Thank you all so much to those pictured as well as Margaret for the end of day d
 [1]: http://stevenja.co/bs/images/large/20130915-melon.jpg "no seeds"
 [2]: http://stevenja.co/bs/images/large/20130915-macandcheese.jpg "cheesin'"
 [3]: http://stevenja.co/bs/images/large/20130915-samanthany.jpg "<3"
-[4]: http://stevenja.co/bs/images/large/20130915-starein.gif "caught blake starin'"
 [5]: http://stevenja.co/bs/images/large/20130915-davejill.jpg "I agree dave!"
 [6]: http://stevenja.co/bs/images/large/20130915-syed.gif "majestic"
 [7]: http://stevenja.co/bs/images/large/20130915-karly.jpg "so mysterious"
