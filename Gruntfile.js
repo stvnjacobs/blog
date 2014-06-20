@@ -39,7 +39,7 @@ module.exports = function(grunt) {
           src: ['**/*.{png,jpg,jpeg,gif}'],
           dest: 'images/'
         }]
-      }
+      },
     },
 
     sass: {
@@ -54,16 +54,29 @@ module.exports = function(grunt) {
           dest: 'css',
           ext: '.css'
         }]
-      }
-    }
+      },
+    },
+
+    watch: {
+      sass: {
+      files: '**/*.scss',
+      tasks: ['style'],
+      },
+      livereload: {
+        options: { livereload: true },
+        files: ['css/**/*'],
+      },
+    },
   });
 
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('resize', ['responsive_images']);
   grunt.registerTask('min', ['imagemin']);
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('style', ['sass']);
+  grunt.registerTask('default', ['sass','watch']);
 
 };
