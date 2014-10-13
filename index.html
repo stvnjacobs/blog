@@ -2,54 +2,76 @@
 layout: default
 title: stevenja.co/bs/
 ---
-<div>
-	<div class="row">       
-		<div class="pad-right small-12 large-6 columns">	       
- 			<section class="feature">
-			 	<h2>Recent</h2>
 
-     			{% for post in site.categories.feature %}
-     			<div>
-				<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/large/{{ post.image }}"></a>
-            <div class="row text-right">
-              <span class="meta">{{ post.date | date_to_string }} &raquo; <a class="title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></span>
-     		    </div>
-          </div>
-  			  {% endfor %}
 
-     	</section>
+<div class="row">
 
-      <section class="links">
-        <h2>Links</h2>
+  <!-- DESKTOP: START LEFT COLLUMN -->
 
-          {% for post in site.categories.link limit:6 %}
-          <div class="item">
-            <a href="{{ site.url }}{{ post.url }}"><span class="biglink">{{ post.title }}</span></a>
-            <p><span class="meta">{{ post.date | date_to_string }}</span> &raquo; <a class = "destination" href="{{ post.destination }}">Direct Link</a></p>
-          </div>
-          {% endfor %}
-          <div class="row border-top">
-            <p><a href="{{ site.url }}/links.html">More links...</a></p>
-          </div>
-      </section>
+  <div class="pad-right small-12 large-6 columns">         
+    <section class="feature">
+      <h2>Recent</h2>
 
-		</div>
+      {% for post in site.categories.feature %}
 
-		<div class="pad-left small-12 large-6 columns">	       
- 		  
-      <section class="photo">
-			 	<h2>Photo</h2>
-          <div class="row">
-     			{% for post in site.categories.photo %}
-     			  <a href="{{ site.url }}{{ post.url }}">
-            <img src="{{ site.url }}/images/small/{{ post.image }}">
-            </a>
-          {% endfor %}
-          </div>
-     	</section>
+      <div>
+        <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/large/{{ post.image }}"></a>
+        <div class="row text-right">
+          <span class="meta">{{ post.date | date_to_string }} &raquo; 
+            <a class="title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          </span>
+        </div>
+      </div>
 
-		</div>
+      {% endfor %}
+
+    </section>
+
+    <section class="links">
+      <h2>Links</h2>
+
+      {% for post in site.categories.link limit:6 %}
+
+      <div class="item">
+        <a href="{{ site.url }}{{ post.url }}"><span class="biglink">{{ post.title }}</span></a>
+        <div class="row text-left">
+          <span class="meta">{{ post.date | date_to_string }} &raquo; 
+            <a class = "destination" href="{{ post.destination }}">Direct Link</a>
+          </span>
+        </div>
+      </div>
+ 
+      {% endfor %}
+
+      <div class="row border-top">
+          <a href="{{ site.url }}/links.html">More links...</a>
+      </div>
+    </section>
   </div>
+
+  <!-- DESKTOP: END LEFT COLLUMN -->
+
+  <!-- DESKTOP: START RIGHT COLLUMN -->
+
+  <div class="pad-left small-12 large-6 columns">        
+    <section class="photo">
+      <h2>Photo</h2>
+      <div class="row">
+        
+        {% for post in site.categories.photo %}
+
+          <a href="{{ site.url }}{{ post.url }}">
+            <img src="{{ site.url }}/images/small/{{ post.image }}">
+          </a>
+
+        {% endfor %}
+
+      </div>
+    </section>
+  </div>
+
+  <!-- DESKTOP: START RIGHT COLLUMN -->
+  
 </div>
 
 {% include footer.html %}
