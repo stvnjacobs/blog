@@ -3,3 +3,5 @@ name: stevenja.co/bs/
 markdown: kramdown
 highlighter: pigments
 exclude: [node_modules, Gruntfile.js, tmp]
+
+email: stjacobs+blog@fastmail.fm
