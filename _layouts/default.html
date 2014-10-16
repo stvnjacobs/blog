@@ -4,29 +4,34 @@
 <body>
   <div class="container">
     <div class="site">
-      <div class="row">
-        <div class="header">
-          <h1 class="url-main"><a href="{{ site.url }}">{{ site.name }}</a></h1>
-          <a class="extra first" href="{{ site.url }}">home</a>
-        </div>
-      </div>
-      <div>
+      <header>
+        <h1><a href="{{ site.url }}">{{ site.name }}</a></h1>
+        <nav>
+          <a href="{{ site.url }}">home</a>
+          <a href="{{ site.url }}/photo.html">photo</a>
+        </nav>
+      </header>
+      <div class="content">
         {{ content }}
       </div>
     </div>
   </div>
-    <script type="text/javascript">
-           var _paq = _paq || [];
-     _paq.push(['trackPageView']);
-     _paq.push(['enableLinkTracking']);
-     (function() {
+
+  <!-- begin base_scripts -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://107.170.161.229/";
        _paq.push(['setTrackerUrl', u+'piwik.php']);
        _paq.push(['setSiteId', 1]);
        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
-    </script>
-    <noscript><p><img src="http://107.170.161.229/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-  </body>
+        })();
+  </script>
+  <noscript><p><img src="http://107.170.161.229/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+  <!-- end base_scripts -->
+
+</body>
 </html>

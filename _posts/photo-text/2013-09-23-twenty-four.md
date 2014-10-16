@@ -3,7 +3,11 @@ layout: post
 title:  "twenty-four"
 image: 20130915-melon.jpg
 categories: feature
-tags:
+tags: 
+- birthday
+- party
+- acknowledgements
+
 ---
 
 ![watermelon][1]

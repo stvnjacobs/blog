@@ -13,9 +13,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px $sans-serif;
-  font-size: small;
-  text-align: center;
+  font: $sans-serif;
 }
 
 h1 {
@@ -44,14 +42,12 @@ h3 {
 }
 
 p { 
-  font-weight: 400;
   margin: 1em 0; 
-  max-width: 768px;
 }
 
 a         { color: #00a; text-decoration: none;}
 a:hover   { color: $black; }
-a:visited { color: $red; }
+/* a:visited { color: $red; } */
 
 .italic {
   font-style: italic;
@@ -72,14 +68,46 @@ a:visited { color: $red; }
 }
 
 .site {
-  font-size: 115%;
   text-align: justify;
   line-height: 1.5em;
 }
 
-.header a {
+.content .fixed-width {
+  width: 738px;
+}
+
+.content .full-width {
+  width: 100%;
+}
+
+header h1{
+  display: inline-block;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header h1 a{
+  color: $black;
+}
+
+header h1 a:hover {
+  color: $red;
+}
+
+header a {
   font-weight: bold;
   text-decoration: none;
+}
+
+nav > a {
+  color: $grey;
+  margin-left: 1em;
+}
+
+nav > a:hover {
+  color: $black;
 }
 
 .footer {
@@ -106,27 +134,6 @@ a:visited { color: $red; }
 .footer a{
     display: block;
     text-align: center;
-}
-
-.url-main {
-  display: inline-block;
-}
-
-.url-main a {
-  color: $black;
-}
-
-.url-main a:hover {
-  color: $red;
-}
-
-.header a.extra {
-  color: $grey;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: $black;
 }
 
 .meta {
@@ -208,11 +215,6 @@ a:visited { color: $red; }
   font-style: italic;
 }
 
-.feature .row {
-  line-height: 1.4em;
-  margin-top: 0.5em;
-}
-
 .links p {
   margin: 0;
 }
@@ -282,6 +284,10 @@ a:visited { color: $red; }
 @media only screen and (max-width: 768px) {
 
   .container {
+    width: 100%;
+  }
+
+  .content .fixed-width {
     width: 100%;
   }
 
