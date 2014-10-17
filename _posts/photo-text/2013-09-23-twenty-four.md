@@ -6,6 +6,7 @@ categories: feature
 tags: 
 - birthday
 - party
+- photos
 - acknowledgements
 
 ---
