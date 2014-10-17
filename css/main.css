@@ -157,6 +157,10 @@ nav > a:hover {
   text-align: right;
 }
 
+.text-left {
+  text-align: right;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -248,6 +252,17 @@ nav > a:hover {
   margin-top: 2em;
   margin-bottom: 0.5em;
   border-top: 1px solid #000;
+}
+
+ul.tag-list {
+  display: inline-block;
+  margin: 0px;
+  padding-left: 1em;
+}
+
+ul.tag-list > .tag {
+  display: inline-block;
+  color: #a10808;
 }
 
 /******************************************************************************/
