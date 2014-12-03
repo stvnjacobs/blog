@@ -2,8 +2,7 @@
 layout: default
 title: stevenja.co/bs/
 ---
-
-
+<!-- begin homepage content -->
 <div class="fixed-width">
   <h2>Posts</h2>
   <section>
@@ -19,39 +18,9 @@ title: stevenja.co/bs/
     </div>
     {% endfor %}
   </section>
-
-  <!-- hide this -
-  <section class="feature">
-    <h2>Recent</h2>
-    {% for post in site.categories.feature %}
-    <div>
-      <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/large/{{ post.image }}"></a>
-      <div class="text-right">
-        <span class="meta">{{ post.date | date_to_string }} &raquo; 
-          <a class="title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-        </span>
-      </div>
-    </div>
-    {% endfor %}
-  </section>
-
-  <section class="links">
-    <h2>Links</h2>
-    {% for post in site.categories.link limit:6 %}
-    <div class="item">
-      <a href="{{ site.url }}{{ post.url }}"><span class="biglink">{{ post.title }}</span></a>
-      <div class="text-left">
-        <span class="meta">{{ post.date | date_to_string }} &raquo; 
-          <a class = "destination" href="{{ post.destination }}">Direct Link</a>
-        </span>
-      </div>
-    </div>
-    {% endfor %}
-    <div class="row border-top">
-      <a href="{{ site.url }}/links.html">More links...</a>
-    </div>
-  </section>
-- dont hide this -->
-
+  <!-- begin footer -->
   {% include footer.html %}
+  <!-- end footer -->
+
 </div>
+<!-- end homepage content -->
