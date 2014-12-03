@@ -266,6 +266,14 @@ ul.tag-list > .tag {
   color: #a10808;
 }
 
+ul.setup-item {
+  padding: 0px;
+  list-style: none;
+}
+ul.setup-item li {
+  margin-bottom: 0.4em;
+}
+
 /******************************************************************************/
 /*
 /* Media Query Breakpoints
