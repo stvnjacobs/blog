@@ -271,6 +271,15 @@ ul.tag-list > .tag {
   color: desaturate($red, 10%)
 }
 
+ul.setup-item {
+  padding: 0px;
+  list-style: none;
+
+  li {
+    margin-bottom: 0.4em;
+  }
+}
+
 /******************************************************************************/
 /*
 /* Media Query Breakpoints
