@@ -1,5 +1,6 @@
 # jekyll #
 _site/
+_drafts
 
 # dev #
 node_modules/
@@ -11,3 +12,6 @@ scanner/
 tmp/images
 images/
 images-raw/
+
+# playground #
+4/
