@@ -68,7 +68,7 @@ a:hover   { color: $black; }
 }
 
 .site {
-  text-align: justify;
+  text-align: left;
   line-height: 1.5em;
 }
 
@@ -108,6 +108,14 @@ nav > a {
 
 nav > a:hover {
   color: $black;
+}
+
+article {
+  margin-bottom: 2em;
+}
+
+article:last-child {
+  margin-bottom: 0;
 }
 
 .footer {
@@ -213,7 +221,7 @@ nav > a:hover {
   width: 100%;
 }
 
-.feature .title {
+.title {
   font-family: $serif;
   font-size: 1.4em;
   font-style: italic;
@@ -259,6 +267,10 @@ nav > a:hover {
   border-top: 1px solid $black;
 }
 
+#tag-cloud a:before { 
+  content: '#'; 
+}
+
 ul.tag-list {
   display: inline-block;
   margin: 0px;
@@ -269,6 +281,10 @@ ul.tag-list > .tag {
   display: inline-block;
   font-size: 0.8em;
   color: desaturate($red, 10%)
+}
+
+ul.tag-list > .tag a {
+  color: inherit
 }
 
 ul.setup-item {
@@ -303,6 +319,24 @@ ul.setup-item {
   .pad-left {
     padding-left: 0.7em;
   } 
+
+  article {
+    h3 {
+      margin-top: 0;
+    }
+
+    .column img {
+      width: 100%;
+      padding-bottom: 1em;
+    }
+    .details.column {
+      padding-left: 1em;
+
+      p:first-child {
+        margin-top: 0;
+      }
+    }
+  }
 
 }
 

@@ -2,19 +2,25 @@
 layout: post
 title: Ursa Major summer tour poster
 date: 2010-08-09
-image: 20100809-4877856861-ursa-summer-tour-poster.jpg
-categories: serigraphy gigposter
+images: 
+- 20100809-4877856861-ursa-summer-tour-poster.jpg
+categories: craft serigraphy
 tags: 
 - Ursa Major
 - serigraphy
 - gigposter
 ---
 
-![close-up][1]
+**Illustration & Design:**  
+Steven Jacobs 
 
-### Info
-Illustration & Design: Steve Jacobs 
-Summer Tour Text: Andrew Potts  
-Printed with the help of Andrew Potts, Bethany Barton and Alexis Prego
+**Summer Tour Text:**  
+Andrew Potts  
 
-[1]: http://stevenja.co/bs/images/large/20100809-4877856861-ursa-summer-tour-poster.jpg
+**Printed by:**
+Steven Jacobs
+
+_with the help of_  
+Andrew Potts  
+Bethany Barton  
+Alexis Prego
