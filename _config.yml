@@ -5,3 +5,7 @@ highlighter: pigments
 exclude: [node_modules, Gruntfile.js, tmp]
 
 email: stjacobs+blog@fastmail.fm
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
