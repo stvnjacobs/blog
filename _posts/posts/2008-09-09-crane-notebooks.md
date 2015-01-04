@@ -15,7 +15,7 @@ tags:
 ---
 
 __Info:__  
-Created from [this photo]({% post_url /photo/2008-05-04-york-rail-crane %}), taken in York, Pennsylvania.  Digitally seperated into a two color halftone and printed on ((insert stock )).  
+Created from [this photo]({{ site.url }}{% post_url /photo/2008-05-04-york-rail-crane %}), taken in York, Pennsylvania.  Digitally seperated into a two color halftone and printed on ((insert stock )).  
 
 Pages:  
 
