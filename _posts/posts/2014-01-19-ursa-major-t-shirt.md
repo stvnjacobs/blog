@@ -2,20 +2,22 @@
 layout: post
 title: Ursa Major t-shirt
 date: 2010-08-09
-image: 20100806-4878465078-ursa-t-shirt.jpg
-categories: serigraphy apparel
+images: 
+- 20100806-4878465078-ursa-t-shirt.jpg
+- 20100806-4878464654-ursa-t-shirt-full.jpg
+categories: craft serigraphy
 tags: 
 - Ursa Major
 - serigraphy
+- apparel
 - t-shirt
 ---
 
-![close-up][1]
+**Illustration**  
+Andrew Potts  
 
-![full][2]
+**Printed by:**  
+Steven Jacobs  
 
-### Info
-Illustration and print help: Andrew Potts
-
-[1]: http://stevenja.co/bs/images/large/20100806-4878465078-ursa-t-shirt.jpg
-[2]: http://stevenja.co/bs/images/large/20100806-4878464654-ursa-t-shirt-full.jpg
+_with the help of_  
+Andrew Potts  
