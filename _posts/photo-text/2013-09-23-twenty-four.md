@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "twenty-four"
-image: 20130915-melon.jpg
 categories: feature
 tags: 
 - birthday
