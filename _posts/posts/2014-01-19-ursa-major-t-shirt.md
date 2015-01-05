@@ -18,6 +18,5 @@ Andrew Potts
 
 **Printed by:**  
 Steven Jacobs  
-
-_with the help of_  
+_**with the help of:**_  
 Andrew Potts  

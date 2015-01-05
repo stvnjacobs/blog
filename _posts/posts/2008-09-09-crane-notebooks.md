@@ -15,8 +15,6 @@ tags:
 ---
 
 __Info:__  
-Created from [this photo]({{ site.url }}{% post_url /photo/2008-05-04-york-rail-crane %}), taken in York, Pennsylvania.  Digitally seperated into a two color halftone and printed on ((insert stock )).  
-
-Pages:  
+Created from [this photo]({{ site.url }}{% post_url /photo/2008-05-04-york-rail-crane %}), taken in York, Pennsylvania.  Digitally seperated into a two color halftone and printed on 100lb stock.  Hand stitched, single signature.
 
 Edition of about 9<em>ish</em>.

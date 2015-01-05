@@ -17,10 +17,9 @@ Steven Jacobs
 **Summer Tour Text:**  
 Andrew Potts  
 
-**Printed by:**
-Steven Jacobs
-
-_with the help of_  
+**Printed by:**  
+Steven Jacobs  
+_**with the help of:**_  
 Andrew Potts  
 Bethany Barton  
 Alexis Prego
