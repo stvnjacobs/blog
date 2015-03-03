@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="fixed-width">
-  <h2>tag: {{ page.tag }}</h2>
+  <h2>#{{ page.tag }}</h2>
   <section class="row">
     {% for post in page.posts %}
     <article>
@@ -17,12 +17,7 @@ layout: default
         </ul>
       </div>
       <div class="row">
-        <div class="column medium-6">
-          {% for image in post.images %}
-          <img src="{{ site.url }}/images/large/{{ image }}">
-          {% endfor %}
-        </div>
-        <div class="details column medium-6">
+        <div class="details column">
           {{ post.content }}
         </div>
       </div>
