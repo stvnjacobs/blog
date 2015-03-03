@@ -7,7 +7,6 @@ tags:
 - party
 - photos
 - acknowledgements
-
 ---
 
 ![watermelon][1]
