@@ -64,6 +64,7 @@ a:hover {
 /*
 /*****************************************************************************/
 .container {
+  width: 768px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -73,14 +74,6 @@ a:hover {
 .site {
   text-align: left;
   line-height: 1.5em;
-}
-
-.content .fixed-width {
-  width: 738px;
-}
-
-.content .full-width {
-  width: 100%;
 }
 
 header h1 {
