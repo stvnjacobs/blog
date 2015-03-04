@@ -2,7 +2,7 @@ url: http://localhost:4000
 name: stevenja.co/bs/
 markdown: kramdown
 highlighter: pygments
-exclude: [node_modules, Gruntfile.js, tmp]
+exclude: [node_modules, Gruntfile.js]
 
 email: stjacobs+blog@fastmail.fm
 
