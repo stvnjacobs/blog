@@ -1,61 +1,57 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import 'colors';
+@import 'typefaces';
+
 /*****************************************************************************/
 /*
 /* Common
 /*
 /*****************************************************************************/
+
 /* Global Reset */
-html, body {
-  height: 100%;
-}
+
+html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: Helvetica, Arial, sans-serif;
+  font: $sans-serif;
 }
 
 h1 {
-  font-family: "Droid Serif", serif;
+  font-family: $serif;
   font-size: 2.1em;
   font-weight: 700;
 }
 
 h2 {
-  font-family: "Droid Serif", serif;
+  font-family: $serif;
   font-size: 1.4em;
   padding-top: 0.6em;
-  border-top: 1px solid #000;
-  border-bottom: 2px solid #000;
+  border-top: 1px solid $black;
+  border-bottom: 2px solid $black;
   margin-bottom: 0.7em;
 }
 
 h3, h4, h5, h6 {
-  font-family: "Droid Serif", serif;
+  font-family: $serif;
   font-size: 1em;
 }
 
 h3 {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid $black;
   margin-bottom: 0.7em;
 }
 
-p {
-  margin: 1em 0;
+p { 
+  margin: 1em 0; 
 }
 
-a {
-  color: #00a;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #000;
-}
-
+a         { color: #00a; text-decoration: none;}
+a:hover   { color: $black; }
 /* a:visited { color: $red; } */
+
 .italic {
   font-style: italic;
-  font-family: "Droid Serif", serif;
+  font-family: $serif;
 }
 
 /*****************************************************************************/
@@ -63,12 +59,12 @@ a:hover {
 /* Site
 /*
 /*****************************************************************************/
+
 .container {
   width: 768px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 .site {
@@ -76,7 +72,7 @@ a:hover {
   line-height: 1.5em;
 }
 
-header h1 {
+header h1{
   display: inline-block;
 }
 
@@ -84,12 +80,12 @@ header nav {
   display: inline-block;
 }
 
-header h1 a {
-  color: #000;
+header h1 a{
+  color: $black;
 }
 
 header h1 a:hover {
-  color: #a00;
+  color: $red;
 }
 
 header a {
@@ -98,12 +94,12 @@ header a {
 }
 
 nav > a {
-  color: #aaa;
+  color: $grey;
   margin-left: 1em;
 }
 
 nav > a:hover {
-  color: #000;
+  color: $black;
 }
 
 article {
@@ -115,33 +111,33 @@ article:last-child {
 }
 
 .footer {
-  border-top: 2px solid #000;
+  border-top: 2px solid $black;
   padding-top: 1em;
   margin-bottom: 2em;
 }
 
 .footer ul {
-  margin: 0px;
-  padding: 0px;
-  vertical-align: text-bottom;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: text-bottom;
 }
 
 .footer li {
-  display: inline;
-  float: left;
+    display:inline;
+    float:left;
 }
 
 .footer li:nth-child(n+2) {
-  margin-left: 1em;
+    margin-left: 1em;
 }
 
-.footer a {
-  display: block;
-  text-align: center;
+.footer a{
+    display: block;
+    text-align: center;
 }
 
 .meta {
-  color: #aaa;
+  color: $grey;
 }
 
 .border-top {
@@ -150,7 +146,7 @@ article:last-child {
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-top: 1px solid #aaa;
+  border-top: 1px solid $grey;
   margin-top: 18px;
 }
 
@@ -161,12 +157,12 @@ article:last-child {
 .text-left {
   text-align: right;
 }
-
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
+
 /* standard */
 .post pre {
   border: 1px solid #ddd;
@@ -190,7 +186,7 @@ article:last-child {
 
 /* terminal */
 .post pre.terminal {
-  border: 1px solid #000;
+  border: 1px solid $black;
   background-color: #333;
   color: #FFF;
 }
@@ -204,18 +200,21 @@ article:last-child {
 /* Images
 /*
 /*****************************************************************************/
+
+
+
 /*****************************************************************************/
 /*
 /* Feature
 /*
 /*****************************************************************************/
+
 .feature img {
   width: 100%;
 }
 
 .title {
-  font-family: "Droid Serif", serif;
-  font-size: 1.4em;
+  font-family: $serif;
   font-style: italic;
 }
 
@@ -248,15 +247,19 @@ article:last-child {
 /* Tidbits
 /*
 /******************************************************************************/
+
+.signature {
+}
+
 .horizontal-line {
   height: 0px;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  border-top: 1px solid #000;
+  border-top: 1px solid $black;
 }
 
-#tag-cloud a:before {
-  content: '#';
+#tag-cloud a:before { 
+  content: '#'; 
 }
 
 ul.tag-list {
@@ -268,19 +271,20 @@ ul.tag-list {
 ul.tag-list > .tag {
   display: inline-block;
   font-size: 0.8em;
-  color: #a10808;
+  color: desaturate($red, 10%)
 }
 
 ul.tag-list > .tag a {
-  color: inherit;
+  color: inherit
 }
 
 ul.setup-item {
   padding: 0px;
   list-style: none;
-}
-ul.setup-item li {
-  margin-bottom: 0.4em;
+
+  li {
+    margin-bottom: 0.4em;
+  }
 }
 
 /******************************************************************************/
@@ -294,30 +298,41 @@ ul.setup-item li {
 /* max-width: 767px { phones }
 /*
 /******************************************************************************/
+
+@media only screen and (min-width: 1176px) { }
+
 @media only screen and (min-width: 768px) {
+
   .pad-right {
     padding-right: 0.7em;
   }
 
   .pad-left {
     padding-left: 0.7em;
+  } 
+
+  article {
+    h3 {
+      margin-top: 0;
+    }
+
+    .column img {
+      width: 100%;
+      padding-bottom: 1em;
+    }
+    .details.column {
+      padding-left: 1em;
+
+      p:first-child {
+        margin-top: 0;
+      }
+    }
   }
 
-  article h3 {
-    margin-top: 0;
-  }
-  article .column img {
-    width: 100%;
-    padding-bottom: 1em;
-  }
-  article .details.column {
-    padding-left: 1em;
-  }
-  article .details.column p:first-child {
-    margin-top: 0;
-  }
 }
+
 @media only screen and (max-width: 768px) {
+
   .container {
     width: 100%;
   }
@@ -333,6 +348,5 @@ ul.setup-item li {
   .post img {
     max-width: 100%;
   }
-}
 
-/*# sourceMappingURL=main.css.map */
+}
