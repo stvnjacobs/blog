@@ -1,14 +1,25 @@
 ---
 layout: default
 ---
+ 
 <div>
   <h2>{{ page.title }}</h2>
-  <p class="meta">{{ page.date | date_to_string }}</p>
+  <span class="meta">{{ page.date | date_to_string }}</span>
+  <ul class="tag-list">
+    {% for tag in page.tags %}
+      {% if tag != 'frontpage' %}
+      <li class="tag"><a href="{{ site.url }}/tag/{{ tag }}">#{{ tag }}</a></li>
+      {% endif %}
+    {% endfor %}
+          </ul>
   {% include edit.html %}
   <div class="post">
-    {{ content }}
+
     {% include post-images.html %}
 
+    <div>
+      {{ content }}
+    </div>
   </div>
   {% include footer.html %}
 </div>

@@ -49,6 +49,10 @@ a         { color: #00a; text-decoration: none;}
 a:hover   { color: $black; }
 /* a:visited { color: $red; } */
 
+img {
+  max-width: 100%;
+}
+
 .italic {
   font-style: italic;
   font-family: $serif;
@@ -137,6 +141,7 @@ article:last-child {
 }
 
 .meta {
+  font-size: 0.8em;
   color: $grey;
 }
 
@@ -228,10 +233,6 @@ article:last-child {
 /* Feature
 /*
 /*****************************************************************************/
-
-.feature img {
-  width: 100%;
-}
 
 .title {
   font-family: $serif;
@@ -329,26 +330,13 @@ ul.setup-item {
 
   .pad-left {
     padding-left: 0.7em;
-  } 
+  }
 
   article {
     h3 {
       margin-top: 0;
     }
-
-    .column img {
-      width: 100%;
-      padding-bottom: 1em;
-    }
-    .details.column {
-      padding-left: 1em;
-
-      p:first-child {
-        margin-top: 0;
-      }
-    }
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -364,9 +352,4 @@ ul.setup-item {
   .header a.first {
     margin-left: 0px;
   }
-
-  .post img {
-    max-width: 100%;
-  }
-
 }

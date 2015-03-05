@@ -7,9 +7,9 @@ title: stevenja.co/bs/
   <h2>Posts</h2>
   <section>
     {% for post in site.posts %}
-      {% if post.tags contains'frontpage' %}
-        <div class="item meta text-left">
-          <span>{{ post.date | date_to_string }}</span>&nbsp;&raquo; 
+      {% if post.tags contains 'frontpage' %}
+        <div class="item text-left">
+          <span class="meta">{{ post.date | date_to_string }}&nbsp;&raquo;</span> 
           <a class="title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
           <ul class="tag-list">
             {% for tag in post.tags %}
