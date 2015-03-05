@@ -2,12 +2,11 @@
 layout: post
 title: Notebooks
 date: 2010-08-09
-images: 
+images:
 - 2010-08-18-york-crane-book.jpg
 - 2010-08-18-york-crane-book-halftones.jpg
-- 2010-08-18-york-crane-halftone-spine.jpg
 categories: craft serigraphy
-tags: 
+tags:
 - bookbinding
 - serigraphy
 - flatstock
