@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Notebooks
-date: 2010-08-09
 images:
 - 2010-08-18-york-crane-book.jpg
 - 2010-08-18-york-crane-book-halftones.jpg
