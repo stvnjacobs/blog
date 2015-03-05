@@ -201,6 +201,26 @@ article:last-child {
 /*
 /*****************************************************************************/
 
+.flex-row {
+  font-size: 0;
+  flex-flow: row nowrap;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-between;
+
+  .flex-item {
+    margin: auto;
+  }
+  
+  .flex-item:first-child {
+    padding-right: 6px;
+  }
+}
+
+.flex-row .flex-item img {
+  width: 100%;
+  height: auto;
+}
 
 
 /*****************************************************************************/

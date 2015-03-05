@@ -1,0 +1,33 @@
+<!-- TODO: add logic to unify posts/pages -->
+
+{% if post.images.size == 1 %}
+<div>
+  {% for image in post.images %}
+  <img src="{{ site.url }}/images/large/{{ image }}">
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.images.size == 1 %}
+<div>
+  {% for image in page.images %}
+  <img src="{{ site.url }}/images/large/{{ image }}">
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if post.images.size == 2 %}
+<div class="flex-row">
+  {% for image in post.images %}
+  <div class="flex-item"><img src="{{ site.url }}/images/large/{{ image }}"></div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if page.images.size == 2 %}
+<div class="flex-row">
+  {% for image in page.images %}
+  <div class="flex-item"><img src="{{ site.url }}/images/large/{{ image }}"></div>
+  {% endfor %}
+</div>
+{% endif %}

@@ -18,12 +18,8 @@ title: stevenja.co/bs/
         </ul>
       </div>
       <div class="row">
-        <div class="column medium-6">
-          {% for image in post.images %}
-          <img src="{{ site.url }}/images/large/{{ image }}">
-          {% endfor %}
-        </div>
-        <div class="details column medium-6">
+        {% include post-images.html %}
+        <div>
           {{ post.content }}
         </div>
       </div>
