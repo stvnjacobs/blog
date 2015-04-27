@@ -6,6 +6,7 @@ html {
   box-sizing: inherit;
 }
 
+@import 'util';
 @import 'colors';
 @import 'typefaces';
 @import 'syntax';
@@ -339,6 +340,19 @@ ul.setup-item {
     h3 {
       margin-top: 0;
     }
+  }
+
+  .dl-horizontal dt {
+    float: left;
+    width: 120px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .dl-horizontal dd {
+    margin-left: 140px;
   }
 }
 

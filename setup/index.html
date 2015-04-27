@@ -5,12 +5,14 @@ title: setup
 <div class="fixed-width">
   <h2>Current Setup</h2>
   <p>This page is a quick attempt of documentation on the various pieces that go into creating and maintaining this site.  It is not well maintained at the moment.</p>
+  <dl class="dl-horizontal">
   {% for dependency in site.data.dependencies %}
-  <article>
-    <a class="italic" href="{{ dependency.link }}" target="_blank">{{ dependency.name }}</a>
-      {{ dependency.description }}
+    <dt>
+      <a class="italic" href="{{ dependency.link }}" target="_blank">{{ dependency.name }}</a>
+    </dt>
+    <dd>{{ dependency.description }}</dd>
   {% endfor %}
-
+  </dl>
   <p>I've been working on a styleguide which can be found <a class="italic" href="{{ site.url }}/setup/styleguide">Here</a></p>
   <!-- begin footer -->
   {% include footer.html %}

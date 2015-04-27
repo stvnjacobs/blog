@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Section comment block
+   ========================================================================== */
+
+.cf:before,
+.cf:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after,
+.dl-horizontal dd:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
