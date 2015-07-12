@@ -1,0 +1,36 @@
+---
+layout: default
+title: code - stevenja.co/bs/
+---
+<!-- begin homepage content -->
+<div class="fixed-width">
+  <h2>Code</h2>
+  <section class="row">
+    {% for post in site.categories.code %}
+    <article>
+      <div class="row">
+        <a class="title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><br/>
+        <ul class="tag-list">
+        {% for tag in post.tags %}
+          <li class="tag"><a href="{{ site.url }}/tag/{{ tag }}">#{{ tag }}</a></li>
+        {% endfor %}
+        </ul>
+        <div class="commit" data-repository="{{ post.repository }}"></div>
+      </div>
+      <div class="row">
+        {% include post-images.html %}
+        <div>
+          {{ post.content }}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+  <!-- begin footer -->
+  {% include footer.html %}
+  <!-- end footer -->
+</div>
+{% include jquery.html %}
+{% include momentjs.html %}
+{% include lastcommit.html %}
+<!-- end homepage content -->

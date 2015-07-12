@@ -1,0 +1,16 @@
+<script>
+  $(".commit").each(function(index){
+    var ele = $(this);
+    var repo = $(this).data('repository');
+    var repoUrl = 'https://github.com/' + repo;
+    var commitQueryUrl = 'https://api.github.com/repos/' + repo + '/commits';
+    $.get(commitQueryUrl, function(data) {
+      var commitDate = data[0].commit.author.date;
+          commitDate = moment(commitDate).fromNow();
+          var contents = '<span class="meta">Last Public Commit: ' +
+                         '<a href="' + repoUrl + '">' + commitDate + '</a>' +
+                         '</span>'
+      ele.html(contents);
+  });
+});
+</script>

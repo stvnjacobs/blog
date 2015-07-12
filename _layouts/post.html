@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
- 
+
 <div>
   <h2>{{ page.title }}</h2>
-  <span class="meta">{{ page.date | date_to_string }}</span>
+  <span class="meta">{{ page.date | date_to_string }}</span><br>
   <ul class="tag-list">
     {% for tag in page.tags %}
       {% if tag != 'frontpage' %}
@@ -13,6 +13,7 @@ layout: default
     {% endfor %}
           </ul>
   {% include edit.html %}
+  {% include github.html %}
   <div class="post">
 
     {% include post-images.html %}
@@ -23,4 +24,8 @@ layout: default
   </div>
   {% include footer.html %}
 </div>
+
+{% include jquery.html %}
+{% include momentjs.html %}
+{% include lastcommit.html %}
 
