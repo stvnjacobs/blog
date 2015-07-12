@@ -290,13 +290,18 @@ article:last-child {
 ul.tag-list {
   display: inline-block;
   margin: 0px;
-  padding-left: 1em;
+  padding-left: 0;
 }
 
 ul.tag-list > .tag {
   display: inline-block;
+  padding-left: 0.2em;
   font-size: 0.8em;
   color: desaturate($red, 10%)
+}
+
+ul.tag-list > .tag:first-child {
+  padding-left: 0;
 }
 
 ul.tag-list > .tag a {
